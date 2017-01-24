@@ -1,0 +1,26 @@
+import List
+
+data Colour = R | B | G deriving (Eq, Ord, Show)
+
+type Colours = [Colour]
+
+type Score = (Int, Int)
+
+type Result = (Colours, Score)
+
+--colour :: Int -> Colour
+
+--base3 :: Int -> Int -> [Int]
+
+--blacks :: Colours -> Colours -> Int
+
+--score :: Colours -> Colours -> Result
+
+--allGuesses :: Int -> [Colours]
+
+--consistent :: Colours -> [Result] -> Bool
+
+--strike :: [Colours] -> [Result] -> [Colours]
+
+sampleResults :: [Result]
+sampleResults = [([R,B,B],(1,0)), ([R,G,G],(2,0))]
